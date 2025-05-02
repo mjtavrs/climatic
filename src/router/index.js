@@ -5,7 +5,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [
     { path: '/', component: HomeView },
-    { path: '/result', component: DisplayWeatherView},
+    { path: '/search', component: DisplayWeatherView},
     { path: '/:catchAll(.*)', component: NotFoundView }
 ]
 

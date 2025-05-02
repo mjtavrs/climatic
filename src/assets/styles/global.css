@@ -24,3 +24,7 @@ a, input, button {
         outline: none;
     }
 }
+
+body {
+    overflow-x: hidden;
+}
