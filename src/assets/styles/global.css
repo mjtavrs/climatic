@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
+    /* Variables */
+    
+    /* Background gradients */
+    /* Clear skies */
+    /* Sunrise */
+    --clear-sunrise: linear-gradient(90deg, rgba(205, 235, 255, 1) 0%, rgba(253, 217, 181, 1) 100%);
+    --clear-day: linear-gradient(90deg, rgba(163, 223, 255, 1) 0%, rgba(255, 246, 211, 1) 100%);
+    --clear-sundown: linear-gradient(90deg, rgba(250, 208, 196, 1) 0%, rgba(255, 209, 255, 1) 100%);
+    --clear-night: linear-gradient(90deg, rgba(13, 27, 42, 1) 0%, rgba(27, 38, 59, 1) 100%);
+
+    /* Cloudy */
+    --cloudy: linear-gradient(90deg, rgba(191, 201, 217, 1) 0%, rgba(145, 161, 179, 1) 100%);
+
+    /* Rainy */
+    --rainy-day: linear-gradient(90deg, rgba(90, 113, 132, 1) 0%, rgba(125, 139, 153, 1) 100%);
+    --rainy-night: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(75, 75, 75, 1) 100%);
+
+    /* Snowy */
+    --snowy: linear-gradient(90deg, rgba(169, 204, 227, 1) 0%, rgba(234, 242, 248, 1) 100%);
+
+    /* Fonts */
+    --font-text: 'Outfit', sans-serif;
+
+    /* Paddings */
+    --mobile-padding: 2rem;
+    --desktop-padding: 2.5rem;
+    --container-padding: 1.5rem;
+
+    /* Breakpoints */
+    --mobile: 767px;
+    --tablet: 1024px;
+    --laptop: 1440px;
+
     background-color: #242424;
     color: #f1f1f1;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-text);
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
